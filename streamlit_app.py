@@ -13,7 +13,6 @@ portion_size = st.slider("Portion Size", 1., 5., 1., .5)
 if st.button("Calculate"):
     result = calculate(guests, portion_size)
     st.write("")
-    st.subheader("---" * 20)
     st.text(f"Burger Quantity:         {result.get('count_hamburgers')} units")
     st.text(f"Meat Amount:             {result.get('weight_meat'):.3f} kg")
     st.text(f"----- 80% Lean Meat:     {result.get('weight_lean_meat'):.3f} kg")
