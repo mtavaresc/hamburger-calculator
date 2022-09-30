@@ -19,7 +19,3 @@ def calculate(guests: int, portion_size: float = 2):
         "weight_french_fries": event.count_fries,
         "count_burger_bun": event.count_burger_bun
     }
-
-
-if __name__ == '__main__':
-    calculate(20, 2)

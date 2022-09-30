@@ -26,11 +26,11 @@ class Meat(Ingredient):
 
 
 class Cheese(Ingredient):
-    weight_kg = 0.03
+    weight_kg = 0.030
 
 
 class Fries(Ingredient):
-    weight_kg = 0.08
+    weight_kg = 0.080
 
 
 class BurgerBun(Ingredient):
